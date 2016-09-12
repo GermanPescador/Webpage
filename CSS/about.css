@@ -170,6 +170,6 @@ i#insta {
 
 .txtcode{
   font-family: "Times New Roman";
-  display: relative;
-  right: 50px;
+  position: relative;
+  left: 50px;
 }
