@@ -13,11 +13,66 @@
 </div>
   <div class="page" id="blog">
     <article class="post">
-      <h3>Article number 1</h3>
+      <h3>Robots.txt</h3>
+      <section>"<em>robots.txt</em>" is a text file placed in the root of your webserver which contains a list of search robots and the parts of your website the robots may or not index in their databases (anyways, sometimes they don't respect this file).
+      In order to make a "<em>robots.txt</em>" file for your website, you just have to create a simple text file in the root of your webserver and write the configuration you want. In it, you must write something like:
+        <p>user-agent: *
+        disallow: /HTML
+        allow: /HTML/index.html</p>
+        This will tell all (*) the indexing robots to not index all the files in /HTML, except index.html, which we have allowed. If you want to give specific instructions to certain robots, you should write their names instead of putting a '*' character.
+      </section>
+      <br><p>Source: <a href="https://www.freefind.com/library/howto/robots/">Freefind</a></p>
+    </article>
+    <article class="post">
+    <h3>Humans.txt</h3>
+    <section>"<em>humans.txt</em>" is a text file placed in the root of your webserver which contains information about the humans behind a certain webpage. As the people behind this project state in their own website "<q>It's an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.</q>".
+    With this premises, this initiative is based in creating this "<em>humans.txt</em>" file with a content following this standard:
+    <p>
+      /* TEAM */
+      Your title: Your name.
+      Site: email, link to a contact form, etc.
+      Twitter: your Twitter username.
+      Location: City, Country.
+      [...]
+      
+      /* THANKS */
+      Name: name or url
+      [...]
+      
+      /* SITE */
+      Last update: YYYY/MM/DD
+      Standards: HTML5, CSS3,..
+      Components: Modernizr, jQuery, etc.
+      Software: Software used for the development
+    </p>
+    If you feel like it, you can check out the "<em>humans.txt</em>" file regarding to the people behind this website <a
+              href="../humans.txt">HERE</a>.</section>
+    <br><p>Source: <a href="http://humanstxt.org/">Humanstxt.org</a></p>
+  </article>
+    <article class="post">
+    <h3>Open Graph</h3>
+    <section>Open Graph is a protocol which makes webpages able to be shared with good visibility in social media. It gives developers the chance to tell the Internet what's in their webpage.
+    This protocol is based in HTML's metadata, of which there are four basic attributes to make use of it:
+    <ul>
+      <li>"<em>og:title</em>", which stores the webpage title that you see for example in the navigation bar</li>
+      <li>"<em>og:type</em>", which specifies what type of webpage is yours (some types may recquire more properties than the four explained in this post)</li>
+      <li>"<em>og:image</em>", which gives internet users an image related to the website (this is the image you see when a link is shared in platforms such as Facebook)</li>
+      <li>"<em>og:url</em>", an attribute that stores the canonical URL of the webpage</li>
+    </ul>
+    For more information about this protocol, visit the source of this post.</section>
+      <br><p>Source: <a href="http://ogp.me/">ogp.me</a></p>
+  </article>
+    <article class="post">
+    <h3>Separation of CSS and HTML</h3>
+    <section>It's a good practice to separate your CSS code from your HTML, every web developer, senior or beginner, should know this. If you merge HTML and CSS in the same code, the result will be a heavy, hard to read document, and we won't be able to easily copy the style in another site. This can be avoided by making .css files which are (in some sort) independent from their .html targets, which will use them through relative reference through the folders of your webserver. With this, you save time, space and energy, and it's more easy to modify the look of a whole set of websites at once. It's a win-win situation!</section>
+      <br><p>Source: My own experience</p>
+  </article>
+    <article class="post">
+      <h3>Article number 2</h3>
       <section>Lorem Ipsum</section>
     </article>
     <article class="post">
-      <h3>Article number 2</h3>
+      <h3>Article number 1</h3>
       <section>Nessum Dorma</section>
     </article>
   </div>
