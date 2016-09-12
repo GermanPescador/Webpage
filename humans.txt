@@ -1,0 +1,41 @@
+/* TEAM */
+
+                            
+Your title: German Pescador Barreto.
+
+                            
+Site: https://1dv525.github.io/gp222da-examination-1/HTML/index.html.
+
+                            
+Location: Vaxjo, Sweden.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Everyone
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2016/09/12 
+
+                            
+Standards: HTML5, CSS3
+
+                            
+Components: none
+
+                            
+Software: Codepen, Webstorm, Git, Github
