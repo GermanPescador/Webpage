@@ -16,35 +16,39 @@
       <h3>Robots.txt</h3>
       <section>"<em>robots.txt</em>" is a text file placed in the root of your webserver which contains a list of search robots and the parts of your website the robots may or not index in their databases (anyways, sometimes they don't respect this file).
       In order to make a "<em>robots.txt</em>" file for your website, you just have to create a simple text file in the root of your webserver and write the configuration you want. In it, you must write something like:
-        <p>user-agent: *
-        disallow: /HTML
-        allow: /HTML/index.html</p>
+        <div class="txtcode">
+          user-agent: *<br>
+          disallow: /HTML <br>
+          allow: /HTML/index.html
+        </div>
         This will tell all (*) the indexing robots to not index all the files in /HTML, except index.html, which we have allowed. If you want to give specific instructions to certain robots, you should write their names instead of putting a '*' character.
       </section>
       <br><p>Source: <a href="https://www.freefind.com/library/howto/robots/">Freefind</a></p>
     </article>
     <article class="post">
     <h3>Humans.txt</h3>
-    <section>"<em>humans.txt</em>" is a text file placed in the root of your webserver which contains information about the humans behind a certain webpage. As the people behind this project state in their own website "<q>It's an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.</q>".
+    <section>"<em>humans.txt</em>" is a text file placed in the root of your webserver which contains information about the humans behind a certain webpage. As the people behind this project state in their own website:
+      <br> <q>It's an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.</q>.
+      <br>
     With this premises, this initiative is based in creating this "<em>humans.txt</em>" file with a content following this standard:
-    <p>
-      /* TEAM */
-      Your title: Your name.
-      Site: email, link to a contact form, etc.
-      Twitter: your Twitter username.
-      Location: City, Country.
-      [...]
-      
-      /* THANKS */
-      Name: name or url
-      [...]
-      
-      /* SITE */
-      Last update: YYYY/MM/DD
-      Standards: HTML5, CSS3,..
-      Components: Modernizr, jQuery, etc.
+    <div class="txtcode">
+      /* TEAM */<br>
+      Your title: Your name. <br>
+      Site: email, link to a contact form, etc. <br>
+      Twitter: your Twitter username. <br>
+      Location: City, Country. <br>
+      [...]<br>
+      <br>
+      /* THANKS */<br>
+      Name: name or url <br>
+      [...]<br>
+      <br>
+      /* SITE */ <br>
+      Last update: YYYY/MM/DD <br>
+      Standards: HTML5, CSS3,.. <br>
+      Components: Modernizr, jQuery, etc. <br>
       Software: Software used for the development
-    </p>
+    </div>
     If you feel like it, you can check out the "<em>humans.txt</em>" file regarding to the people behind this website <a
               href="../humans.txt">HERE</a>.</section>
     <br><p>Source: <a href="http://humanstxt.org/">Humanstxt.org</a></p>
@@ -64,7 +68,9 @@
   </article>
     <article class="post">
     <h3>Separation of CSS and HTML</h3>
-    <section>It's a good practice to separate your CSS code from your HTML, every web developer, senior or beginner, should know this. If you merge HTML and CSS in the same code, the result will be a heavy, hard to read document, and we won't be able to easily copy the style in another site. This can be avoided by making .css files which are (in some sort) independent from their .html targets, which will use them through relative reference through the folders of your webserver. With this, you save time, space and energy, and it's more easy to modify the look of a whole set of websites at once. It's a win-win situation!</section>
+    <section>It's a good practice to separate your CSS code from your HTML, and every web developer, senior or beginner, should know this.
+      <br>If you merge HTML and CSS in the same code, the result will be a heavy, hard to read document, and we won't be able to easily copy the style in another site. This can be avoided by making .css files which are (in some sort) independent from their .html targets, that will use them through relative reference through the folders of your webserver.
+      <br>With this, you save time, space and energy, and it's more easy to modify the look of a whole set of websites at once. Also, your websites will download faster as a browser may just store your .css stylesheet in cache and use it later. Apart from that, you protect your site from not being shown at all because of CSS problems, as the browser may just ignore the .css file and show the .html document without any styles. It's a win-win situation!</section>
       <br><p>Source: My own experience</p>
   </article>
     <article class="post">
