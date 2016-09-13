@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel:400);
 @import url(https://fonts.googleapis.com/css?family=Volkhov:700);
 body {
-  background: url(https://i.imgsafe.org/faa8f3a.jpg) fixed;
+  background: url(../IMG/faa8f3a.jpg) fixed;
   background-size: cover;
   font-family: "Cinzel", sans-serif;
   margin:0;
@@ -42,11 +42,11 @@ body {
   background-position: center;
   border-radius: 50%;
   box-shadow: 0 0 40px white inset;
-  background-image: url(https://i.imgsafe.org/84f2db9.jpg);
+  background-image: url(../IMG/84f2db9.jpg);
 }
 
 #myphoto:hover {
-  background-image: url(https://i.imgsafe.org/81699a9.jpg);
+  background-image: url(../IMG/81699a9.jpg);
 }
 
 h3 {
@@ -69,7 +69,7 @@ h3 {
 }
 
 #Nikon {
-  background: url(https://i.imgsafe.org/c5207de.jpg);
+  background: url(../IMG/c5207de.jpg);
   box-shadow: 0 0 40px white inset;
   background-position: center;
   background-size: 300px;
